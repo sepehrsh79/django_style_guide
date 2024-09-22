@@ -1,0 +1,22 @@
+{
+  "project_name":"MyProject",
+  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+
+  "full_name": "Sepehr Shafiee",
+  "email": "sepehrshafiee1379@gmail.com",
+  "github_username": "sepehrsh79",
+
+  "open_source_license": ["MIT license", "BSD license", "ISC license", "Apache Software License 2.0", "GNU General Public License v3", "Not open source"],
+
+  "postgres_user": "user",
+  "postgres_password": "password",
+
+  "use_jwt": "y",
+
+  "_copy_without_render": [
+        "markdown_tools/*",
+        "frontend/src/**/*.vue",
+        "frontend/node_modules/*",
+        "backend/app/app/email-templates/**"
+    ]
+}
