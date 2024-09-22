@@ -1,4 +1,4 @@
-{%- if cookiecutter.license == "MIT" -%}
+{%- if cookiecutter.open_source_license == "MIT" -%}
 MIT License
 
 Copyright (c) 2020 Aiven 
@@ -20,7 +20,7 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-{%- elif cookiecutter.license == "BEER" -%}
+{%- elif cookiecutter.open_source_license == "BEER" -%}
 /*
  * ----------------------------------------------------------------------------
  * "THE BEER-WARE LICENSE" (Revision 42):
