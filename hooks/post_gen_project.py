@@ -16,7 +16,7 @@ def delete_resource(resource):
         shutil.rmtree(resource)
 
 
-if lisence == "Not open source":
+if license == "Not open source":
     delete_resource("LICENSE")
 if jwt == "n":
     delete_resource(f"{project_slug}/authentication/")
